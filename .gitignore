@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.npy
 
 # C extensions
 *.so
@@ -130,3 +131,5 @@ dmypy.json
 
 .vscode
 .idea
+game_data_public.STX.PremierDraft.csv
+MainDeckModel.h5
