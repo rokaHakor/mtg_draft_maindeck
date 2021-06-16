@@ -18,7 +18,7 @@ The training and validation dataset is "STX Premier Draft Game Data" located at 
 3. It will preprocess and extract the relevant data from the dataset and generate a bunch of .npy files in the /data directory.
 4. Run all the cells in modelling.ipynb in Jupyter. It will use all the data extracted and processed earlier to generate a model called MainDeckModel.h5. The training will automatically stop after 5 epochs without any improvement to the MAE of the validation data.
 
-## Running the modem.
+## Running the model
 1. Obtain a draft from MTG Arena by completing an STX draft and exporting the drafted cards into a text file.
 2. Run the inference.py file and input the draft export path and the trained model path.
 3. You will then get an output of the ~22-25 cards to maindeck which does not include basic lands.
