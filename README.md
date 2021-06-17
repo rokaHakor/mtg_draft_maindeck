@@ -1,5 +1,5 @@
 # MTG Arena Draft Maindeck Assistant
-Machine learning model to determine what cards to maindeck from a draft. Built using a neural network and uses maindeck data from decks that were able to win at least 3 games. This repository is currently setup to train and infer using the STX draft data from 17Lands.com and might be updated for future sets.
+Machine learning model to determine what cards to maindeck from a draft. Built using a neural network and uses maindeck data from decks that were able to win at least 3 games. Hits roughly 80% accuracy based on testing validation data. This repository is currently setup to train and infer using the STX draft data from 17Lands.com and might be updated for future sets.
 
 ## Dependency Versions
 These are not requirements just the versions I used.
