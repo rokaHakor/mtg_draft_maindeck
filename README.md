@@ -12,7 +12,7 @@ These are not requirements just the versions I used.
 The repository includes a pretrained model labeled PretrainedModel.h5. Just run the inference python file and input the path to use.
 
 ## Building the model
-The training and validation dataset is "STX Premier Draft Game Data" located at [https://www.17lands.com/public_datasets](https://www.17lands.com/public_datasets) and is needed if you wish to build the modem yourself.
+The training and validation dataset is "STX Premier Draft Game Data" located at [https://www.17lands.com/public_datasets](https://www.17lands.com/public_datasets) and is needed if you wish to build the model yourself.
 1. Unzip the dataset set from the tar.gz file linked above, place it in the same directory as the data_extraction.ipynb file.
 2. Launch a Jupyter Notebook instance and run all the cells in data_extraction.ipynb.
 3. It will preprocess and extract the relevant data from the dataset and generate a bunch of .npy files in the /data directory.
