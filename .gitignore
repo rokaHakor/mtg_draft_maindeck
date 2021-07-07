@@ -133,3 +133,10 @@ dmypy.json
 .idea
 game_data_public.STX.PremierDraft.csv
 MainDeckModel.h5
+draft_data_public.STX.PremierDraft.csv
+data/full_drafts.pkl
+data/draft_ids.pkl
+data/draft_data.pkl
+data/clean_data.pkl
+.gitignore
+MainDeckModelWeightedBest.h5
